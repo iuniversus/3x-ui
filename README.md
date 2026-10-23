@@ -73,12 +73,15 @@ Built as an enhanced fork of the original X-UI project, 3X-UI adds broader proto
 
 ## Quick Start
 
+最推荐且最稳定的安装方法:
+
 ```bash
 #最推荐，最稳定：先下载脚本再运行——这种方法避开了直接用 sudo 运行在线脚本的冲突 
 curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh -o install.sh #先把安装脚本下载到本地
 sudo bash install.sh                                                                      #然后用管理员权限运行它
 ```
 
+以下各种官方的安装方法均存在缺陷，各种报错！
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
